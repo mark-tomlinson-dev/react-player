@@ -1,7 +1,7 @@
 {
   "name": "react-player",
   "version": "2.11.2",
-  "description": "A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and DailyMotion",
+  "description": "A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia, CFB, and DailyMotion",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -45,7 +45,8 @@
     "dailymotion",
     "hls",
     "dash",
-    "react-component"
+    "react-component",
+    "nfb"
   ],
   "author": "Pete Cook (https://github.com/cookpete)",
   "license": "MIT",

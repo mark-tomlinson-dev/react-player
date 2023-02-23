@@ -76,7 +76,10 @@ export const propTypes = {
     }),
     vidyard: shape({
       options: object
-    })
+    }),
+    nfb: shape({
+      options: object
+    }),
   }),
   onReady: func,
   onStart: func,
@@ -189,7 +192,11 @@ export const defaultProps = {
     },
     vidyard: {
       options: {}
-    }
+    },
+    nfb: {
+      playerId: null,
+      comment: true
+    },
   },
   onReady: noop,
   onStart: noop,

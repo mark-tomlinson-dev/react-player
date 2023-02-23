@@ -356,6 +356,13 @@ class App extends Component {
                 </td>
               </tr>
               <tr>
+                <th>NFB</th>
+                <td>
+                  {this.renderLoadButton('https://www.nfb.ca/film/in_praise_of_hands/embed/player/', 'Test A')}
+                  {this.renderLoadButton('https://www.nfb.ca/film/in_praise_of_hands/embed/player/', 'Test B')}
+                </td>
+              </tr>
+              <tr>
                 <th>Files</th>
                 <td>
                   {this.renderLoadButton('https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_1MB.mp4', 'mp4')}

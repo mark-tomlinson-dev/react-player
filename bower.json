@@ -22,7 +22,8 @@
     "dailymotion",
     "hls",
     "dash",
-    "react-component"
+    "react-component",
+    "nfb"
   ],
   "homepage": "https://github.com/CookPete/react-player",
   "moduleType": [

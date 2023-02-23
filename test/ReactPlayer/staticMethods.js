@@ -22,6 +22,7 @@ test('canPlay()', t => {
   t.true(ReactPlayer.canPlay('https://www.mixcloud.com/mixcloud/meet-the-curators'))
   t.true(ReactPlayer.canPlay('http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4'))
   t.true(ReactPlayer.canPlay('http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4#t=1'))
+  t.true(ReactPlayer.canPlay('https://www.nfb.ca/film/in_praise_of_hands/embed/player/'))
   t.false(ReactPlayer.canPlay('http://example.com/random/path'))
 })
 
